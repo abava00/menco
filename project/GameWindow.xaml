@@ -14,9 +14,11 @@
         MouseMove="OperationArea_MouseMove"   
         Background="White">
 
-        <Rectangle x:Name="Target" Width="20" Height="40" Fill="Orange" />
+        <Rectangle x:Name="Target" Fill="Orange" Margin="626,323,127,25" />
 
-        <Button Content="Turn End" HorizontalAlignment="Left" Height="70" Margin="638,165,0,0" VerticalAlignment="Top" Width="127" FontSize="24"/>
+        <Button Content="Turn End" HorizontalAlignment="Left" Height="70" Margin="638,165,0,0" VerticalAlignment="Top" Width="127" FontSize="24" Click="Button_Click"/>
+        <Label x:Name = "YourTurn" HorizontalAlignment="Left" Margin="626,119,0,0" VerticalAlignment="Top" Height="41" Width="150" Content="Now Turn 0" FontSize="24" RenderTransformOrigin="-1.016,1.289"/>
+        <Label x:Name = "MyTurn" HorizontalAlignment="Left" Margin="626,240,0,0" VerticalAlignment="Top" Height="41" Width="150" Content="Now Turn 1" FontSize="24" RenderTransformOrigin="-1.016,1.289"/>
 
     </Grid>
 </Window>
