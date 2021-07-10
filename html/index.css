@@ -1,0 +1,92 @@
+:root{
+
+  /* background urls */
+  --bg-catsle: url('./src/back/castle.jpg'); 
+  --bg-cforest: url('./src/back/forest.jpg'); 
+  --bg-lake: url('./src/back/lake.jpg'); 
+  --bg-temple: url('./src/back/temple.jpg');
+
+  /* field size */
+  --field-size-width: 1280px;
+  --field-size-height: 720px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* inserts */
+.insert-number-0::before{
+  content: "0";
+}
+.insert-number-1::before{
+  content: "1";
+}
+.insert-number-2::before{
+  content: "2";
+}
+.insert-number-3::before{
+  content: "3";
+}
+.insert-number-4::before{
+  content: "4";
+}
+.insert-number-5::before{
+  content: "5";
+}
+
+
+
+#field{
+  position: absolute;
+  display: block;
+  left: calc((100% - var(--field-size-width)) / 2);
+  top: calc((100% - var(--field-size-height)) / 2);
+  width: 1280px;
+  height: 720px;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.card{
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-color: #fff;
+}
+
+.card .cost,.atk,.def{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-shadow: -1px -1px 3px #fff;
+  font-size: 16pt;
+  padding-top: 4px;
+}
+
+.card .cost{
+  background-color: #6f0;
+  top: 0;
+  left: 0;
+}
+
+.card .atk{
+  background-color: #08f;
+  top: calc(260px - 40px * 2);
+  left: 0;
+}
+
+.card .def{
+  background-color: #f30;
+  top: calc(260px - 40px * 3);
+  left: calc(200px - 40px);
+}
+
+.insert-number-5::before{
+  content: "5";
+}

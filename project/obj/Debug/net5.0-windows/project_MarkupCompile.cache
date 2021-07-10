@@ -1,20 +1,20 @@
 ﻿project
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\kaito\source\repos\project\project\obj\Debug\net5.0-windows\
+e:\github\menco\project\obj\Debug\net5.0-windows\
 project
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\kaito\source\repos\project\project\App.xaml
+e:\github\menco\project\App.xaml
 3930248180
 
-5725731376
+7-1557720453
 193-1891726104
 GameWindow.xaml;MainWindow.xaml;Window1.xaml;
 
-False
+True
 
